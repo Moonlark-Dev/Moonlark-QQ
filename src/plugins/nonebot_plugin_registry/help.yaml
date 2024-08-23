@@ -1,4 +1,4 @@
-plugin: registy
+plugin: registry
 commands:
   register:
     description: help.desc
