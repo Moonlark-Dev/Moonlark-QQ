@@ -1,19 +1,19 @@
 <div align="center">
 
-  <h1>Moonlark</h1>
+  <h1>Moonlark-QQ</h1>
 
-[![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fgithub.com%2FMoonlark-Dev%2FMoonlark%2Fraw%2Fmain%2Fpyproject.toml)](https://github.com/Moonlark-Dev/Moonlark/blob/main/pyproject.toml)
-[![CodeFactor](https://www.codefactor.io/repository/github/moonlark-dev/moonlark/badge)](https://www.codefactor.io/repository/github/moonlark-dev/moonlark)
-[![GitHub License](https://img.shields.io/github/license/Moonlark-Dev/Moonlark)](LICENSE)
-![GitHub repo size](https://img.shields.io/github/repo-size/Moonlark-Dev/Moonlark)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Moonlark-Dev/Moonlark/main.svg)](https://results.pre-commit.ci/latest/github/Moonlark-Dev/Moonlark/main)
+[![Python Version from PEP 621 TOML](https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fgithub.com%2FMoonlark-Dev%2FMoonlark-QQ%2Fraw%2Fmain%2Fpyproject.toml)](https://github.com/Moonlark-Dev/Moonlark-QQ/blob/main/pyproject.toml)
+[![GitHub License](https://img.shields.io/github/license/Moonlark-Dev/Moonlark-QQ)](LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/Moonlark-Dev/Moonlark-QQ)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Moonlark-Dev/Moonlark-QQ/main.svg)](https://results.pre-commit.ci/latest/github/Moonlark-Dev/Moonlark-QQ/main)
 
-[MoonlarkWiKi](https://moonlark-wiki.itcdt.top/) · 
-[Crowdin](https://crowdin.com/project/moonlark) · 
-[English](README_eng.md) · 
-[繁體](README_zho.md)
+[MoonlarkWiKi](https://moonlark-wiki.itcdt.top/)
 
 </div>
+
+## 定制版提示
+
+此 Fork 是 Moonlark 对于 QQ 适配器的定制版，可能存在一些兼容性问题。
 
 ## 说明
 
