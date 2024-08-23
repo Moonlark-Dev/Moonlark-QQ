@@ -20,7 +20,7 @@
 Moonlark 遵循 [AGPL-3.0](LICENSE) 许可证开源。
 
 ```
-Moonlark - A new ChatBot
+Moonlark-QQ - A new ChatBot for QQ
 Copyright (C) 2024  Moonlark Development Team
 
 This program is free software: you can redistribute it and/or modify
