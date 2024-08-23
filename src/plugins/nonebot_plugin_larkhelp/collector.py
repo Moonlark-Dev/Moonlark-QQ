@@ -21,6 +21,8 @@ async def get_plugin_help(plugin: Plugin) -> dict[str, CommandHelp]:
         data = type_validate_python(CommandHelpData, yaml.safe_load(await f.read()))
     help_list = {}
     for key, value in data.commands.items():
+        if key not in "help sign cave vote bag whoami panel motd email register".split(" "):
+            continue
         help_list[key] = CommandHelp(**data.commands[key], plugin=data.plugin)
     return help_list
 

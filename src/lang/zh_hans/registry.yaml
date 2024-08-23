@@ -43,3 +43,7 @@ input:
 gender:
   male: 男性
   female: 女性
+help:
+  desc: 注册
+  details: 在 Moonlark 上注册
+  u1: register
