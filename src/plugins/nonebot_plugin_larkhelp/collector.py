@@ -20,7 +20,7 @@ async def get_plugin_help(plugin: Plugin) -> dict[str, CommandHelp]:
         data = type_validate_python(CommandHelpData, yaml.safe_load(await f.read()))
     help_list = {}
     for key, value in data.commands.items():
-        if key not in "help sign cave bag whoami panel motd email register latex".split(" "):
+        if key not in "help cave whoami motd latex int calc".split(" "):
             continue
 
         if isinstance(value, str):
