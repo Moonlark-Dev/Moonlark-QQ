@@ -40,7 +40,7 @@ async def setup_cache() -> None:
     logger.success("Render 缓存创建完成！")
 
 
-@get_driver().on_startup
+# @get_driver().on_startup
 async def _() -> None:
     for file in cache_dir.iterdir():
         if file.is_file():

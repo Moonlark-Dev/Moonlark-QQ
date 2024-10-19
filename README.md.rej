@@ -1,0 +1,12 @@
+--- README.md
++++ README.md
+@@ -37,9 +11,3 @@ You should have received a copy of the GNU Affero General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ ```
+ 
+-## 鸣谢
+-
+-- [IT Craft Development Team](https://itcdt.top)
+-- [Nonebot2](https://nonebot.dev)
+-- 所有开发者、贡献者和用户
+-

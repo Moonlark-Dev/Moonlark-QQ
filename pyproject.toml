@@ -1,36 +1,33 @@
 [project]
-name = "Moonlark"
+name = "Moonlark-QQ"
 version = "0.1.0"
-description = "A new ChatBot"
+description = "A new ChatBot for QQ"
 readme = "README.md"
 requires-python = ">=3.11, <4.0"
 
 [tool.nonebot]
 adapters = [
-    { name = "OneBot V12", module_name = "nonebot.adapters.onebot.v12" },
-    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
     { name = "QQ", module_name = "nonebot.adapters.qq" },
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
 ]
 plugins = [
     "nonebot_plugin_orm",
-    "nonebot_plugin_sentry",
     "nonebot_plugin_alconna",
     "nonebot_plugin_picstatus",
     "nonebot_plugin_htmlrender",
     "nonebot_plugin_apscheduler",
     "nonebot_plugin_session",
     "nonebot_plugin_waiter",
-    "nonebot_plugin_bilichat",
-    "nonebot_plugin_cnrail",
     "nonebot_plugin_picmcstat"
 ]
 plugin_dirs = ["src/plugins"]
 builtin_plugins = []
 
+
 [tool.poetry]
-name = "moonlark"
+name = "moonlark-qq"
 version = "0.1.0"
-description = "A new ChatBot"
+description = "A new ChatBot for QQ"
 package-mode = false
 authors = ["XiaoDeng3386 <1744793737@qq.com>"]
 license = "AGPL-3.0"
@@ -38,12 +35,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-nonebot2 = {extras = ["fastapi"], version = "^2.3.1"}
-nonebot-adapter-onebot = "^2.4.3"
+nonebot2 = {extras = ["aiohttp", "fastapi"], version = "^2.3.1"}
 aiofiles = "^23.2.1"
 nonebot-plugin-alconna = "^0.48.0"
 nonebot-plugin-picstatus = "^2.0.0.post2"
-nonebot-adapter-discord = "^0.1.6"
 nonebot-plugin-htmlrender = "^0.3.1"
 httpx = {extras = ["socks"], version = "^0.27.0"}
 nonebot-plugin-apscheduler = "^0.4.0"
@@ -63,10 +58,8 @@ nonebot-adapter-qq = "^1.4.4"
 aiomysql = "^0.2.0"
 cryptography = "^42.0.8"
 pyproject-toml = "^0.0.10"
-nonebot-plugin-cnrail = "^0.2.3"
 nonebot-plugin-picmcstat = "^0.6.1"
-nonebot-plugin-bilichat = "^5.10.4"
-nonebot-plugin-sentry = "^2.0.0"
+nonebot-adapter-onebot = "^2.4.4"
 
 [tool.poetry.group.dev.dependencies]
 nb-cli = "^1.4.0"

@@ -37,7 +37,8 @@ async def _(url: str, msg: UniMsg, wait: Query[int] = Query("wait.wait"), user_i
                 raw=await md_to_pic(await lang.text("preview.failed", user_id, err.split("\n")[-2], err), width=1000),
                 name="image.png",
             ),
+            reply_message=True,
         )
     if not (result := await review_image(pic))["compliance"]:
         await lang.finish("preview.not_compliance", user_id, result["message"])
-    await UniMessage().image(raw=pic, name="image.jpg").send()
+    await UniMessage().image(raw=pic, name="image.jpg").send(reply_to=True)

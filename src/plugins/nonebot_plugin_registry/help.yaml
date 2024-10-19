@@ -1,0 +1,7 @@
+plugin: registry
+commands:
+  register:
+    description: help.desc
+    details: help.details
+    usages:
+      - help.u1
